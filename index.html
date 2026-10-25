@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Supercars Olivos</title>
+    <meta name="description" content="Concesionaria de autos premiums, superdeportivos, nobles y deportivos en Olivos, Buenos Aires.">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="icon" type="image/png" href="./assets/icono.png">
+    <link rel="apple-touch-icon" href="./assets/icono.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <a class="logo" href="#inicio" aria-label="Supercars Olivos, inicio">
+                <span class="logo-main">SUPERCARS</span>
+                <span class="logo-sub">OLIVOS</span>
+            </a>
+
+            <nav class="nav" id="nav" aria-label="Navegación principal">
+                <a href="#premiums">Premiums</a>
+                <a href="#nobles">Nobles</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+
+            <div class="header-actions">
+                <a class="header-phone" href="tel:+541147900000">11 4790-0000</a>
+                <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Menú</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <img class="hero-img"
+                 src="./assets/hero-1920.jpg"
+                 srcset="./assets/hero-960.jpg 960w, ./assets/hero-1920.jpg 1920w"
+                 sizes="100vw"
+                 alt="Showroom de Supercars Olivos con un deportivo rojo">
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <h1>Supercars Olivos</h1>
+                <p class="hero-subtitle">Premiums, superdeportivos y autos para todos los días.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#premiums">Ver catálogo</a>
+                    <a class="btn btn-light" href="#contacto">Coordinar visita</a>
+                </div>
+                <p class="hero-note">Av. del Libertador 2400, Olivos</p>
+            </div>
+        </section>
+
+        <section class="section" id="premiums">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Premiums &amp; superdeportivos</h2>
+                    <p>Potencia, presencia y terminaciones que justifican cada peso. Una selección revisada y lista para entrega.</p>
+                </div>
+
+                <div class="cards">
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="./assets/premiums-y-superdeportivos/aston-martin-db11.png" alt="Aston Martin DB11" width="677" height="369" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <h3>Aston Martin DB11</h3>
+                            <p class="card-price">USD 219.000</p>
+                            <p class="card-desc">Gran turismo con V12 biturbo, cuero integral y terminaciones a medida.</p>
+                            <p class="card-specs">V12 5.2 L / 608 hp / 2021</p>
+                            <a class="card-link" href="#contacto" data-model="Aston Martin DB11">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="./assets/premiums-y-superdeportivos/audi-r8.png" alt="Audi R8" width="677" height="369" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <h3>Audi R8</h3>
+                            <p class="card-price">USD 249.000</p>
+                            <p class="card-desc">V10 atmosférico, tracción quattro y un sonido que no necesita presentación.</p>
+                            <p class="card-specs">V10 5.2 L / 562 hp / 2022</p>
+                            <a class="card-link" href="#contacto" data-model="Audi R8">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="./assets/premiums-y-superdeportivos/chevrolet-corvette.png" alt="Chevrolet Corvette C8" width="677" height="369" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <h3>Chevrolet Corvette C8</h3>
+                            <p class="card-price">USD 129.000</p>
+                            <p class="card-desc">Motor central, V8 6.2 y caja de doble embrague. El deportivo más directo de la línea.</p>
+                            <p class="card-specs">V8 6.2 L / 495 hp / 2023</p>
+                            <a class="card-link" href="#contacto" data-model="Chevrolet Corvette C8">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="./assets/premiums-y-superdeportivos/ford-mustang.png" alt="Ford Mustang GT" width="677" height="369" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <h3>Ford Mustang GT</h3>
+                            <p class="card-price">USD 89.000</p>
+                            <p class="card-desc">V8 5.0, caja manual de seis marchas y escape activo. Un clásico que sigue vigente.</p>
+                            <p class="card-specs">V8 5.0 L / 466 hp / 2022</p>
+                            <a class="card-link" href="#contacto" data-model="Ford Mustang GT">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="./assets/premiums-y-superdeportivos/mercedes-benz-amg.png" alt="Mercedes-AMG C63 S" width="677" height="369" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <h3>Mercedes-AMG C63 S</h3>
+                            <p class="card-price">USD 159.000</p>
+                            <p class="card-desc">Sedán deportivo con V8 biturbo y suspensión adaptativa. Discreto por fuera, contundente al acelerar.</p>
+                            <p class="card-specs">V8 4.0 L / 510 hp / 2020</p>
+                            <a class="card-link" href="#contacto" data-model="Mercedes-AMG C63 S">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="./assets/premiums-y-superdeportivos/porsche-911.png" alt="Porsche 911 Carrera S" width="677" height="369" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <h3>Porsche 911 Carrera S</h3>
+                            <p class="card-price">USD 289.000</p>
+                            <p class="card-desc">Coupé 3.0 biturbo, PDK y pack Sport Chrono. Referencia absoluta en equilibrio dinámico.</p>
+                            <p class="card-specs">6 cil. 3.0 L / 450 hp / 2023</p>
+                            <a class="card-link" href="#contacto" data-model="Porsche 911 Carrera S">Consultar</a>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="section-note">Precios de referencia en dólares. Financiación y permuta a convenir en el showroom.</p>
+            </div>
+        </section>
+
+        <section class="section section--soft" id="nobles">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Nobles &amp; deportivos</h2>
+                    <p>Autos que resuelven el día a día sin pedir atención constante. Motores eficientes, mantenimiento simple y confort real.</p>
+                </div>
+
+                <div class="cards">
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="./assets/nobles-y-deportivos/audi-a3.png" alt="Audi A3 40 TFSI" width="677" height="369" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <h3>Audi A3 40 TFSI</h3>
+                            <p class="card-price">USD 42.000</p>
+                            <p class="card-desc">Hatchback premium con caja S tronic y terminaciones sobrias.</p>
+                            <p class="card-specs">2.0 turbo / 190 hp / 2022</p>
+                            <a class="card-link" href="#contacto" data-model="Audi A3 40 TFSI">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="./assets/nobles-y-deportivos/chevrolet-cruze.png" alt="Chevrolet Cruze RS" width="677" height="369" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <h3>Chevrolet Cruze RS</h3>
+                            <p class="card-price">USD 24.000</p>
+                            <p class="card-desc">Sedán 1.4 turbo, automático y pantalla de 8 pulgadas.</p>
+                            <p class="card-specs">1.4 turbo / 150 hp / 2021</p>
+                            <a class="card-link" href="#contacto" data-model="Chevrolet Cruze RS">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="./assets/nobles-y-deportivos/fiat-kronnos.png" alt="Fiat Cronos Precision" width="677" height="369" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <h3>Fiat Cronos Precision</h3>
+                            <p class="card-price">USD 19.000</p>
+                            <p class="card-desc">Sedán 1.8, automático y completo de equipamiento.</p>
+                            <p class="card-specs">1.8 nafta / 130 hp / 2023</p>
+                            <a class="card-link" href="#contacto" data-model="Fiat Cronos Precision">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="./assets/nobles-y-deportivos/nissan-sentra.png" alt="Nissan Sentra SR" width="677" height="369" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <h3>Nissan Sentra SR</h3>
+                            <p class="card-price">USD 26.000</p>
+                            <p class="card-desc">Sedán 2.0 con caja CVT y paquete deportivo SR.</p>
+                            <p class="card-specs">2.0 nafta / 149 hp / 2022</p>
+                            <a class="card-link" href="#contacto" data-model="Nissan Sentra SR">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="./assets/nobles-y-deportivos/toyota-corolla.png" alt="Toyota Corolla SEG" width="677" height="369" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <h3>Toyota Corolla SEG</h3>
+                            <p class="card-price">USD 31.000</p>
+                            <p class="card-desc">Sedán 2.0, CVT y seguridad Toyota Safety Sense.</p>
+                            <p class="card-specs">2.0 nafta / 170 hp / 2023</p>
+                            <a class="card-link" href="#contacto" data-model="Toyota Corolla SEG">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-media">
+                            <img src="./assets/nobles-y-deportivos/volkswagen-golf.png" alt="Volkswagen Golf Highline" width="677" height="369" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <h3>Volkswagen Golf Highline</h3>
+                            <p class="card-price">USD 34.000</p>
+                            <p class="card-desc">Hatchback 1.4 TSI, caja DSG y techo panorámico.</p>
+                            <p class="card-specs">1.4 turbo / 150 hp / 2021</p>
+                            <a class="card-link" href="#contacto" data-model="Volkswagen Golf Highline">Consultar</a>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="section-note">Todas las unidades incluyen verificación mecánica y garantía de 12 meses.</p>
+            </div>
+        </section>
+
+        <section class="section" id="servicios">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Todo lo que rodea al auto.</h2>
+                    <p>Nos ocupamos de la compra, el equipamiento y el mantenimiento para que solo tengas que manejar.</p>
+                </div>
+
+                <div class="services">
+                    <article class="service">
+                        <h3>Selección</h3>
+                        <p>Revisamos historial, kilometraje y estado mecánico de cada unidad antes de publicarla.</p>
+                    </article>
+
+                    <article class="service">
+                        <h3>Accesorios</h3>
+                        <p>Repuestos originales, llantas y equipamiento de fábrica a pedido.</p>
+                    </article>
+
+                    <article class="service">
+                        <h3>Postventa</h3>
+                        <p>Service, garantía y gestión de patentamiento con turnos coordinados.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--soft" id="contacto">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <h2>Agendá una visita al showroom.</h2>
+                    <p>Estamos sobre Libertador, a pocos minutos de la estación de Olivos. Atendemos con cita previa para que puedas ver los autos sin apuro.</p>
+
+                    <address class="contact-details">
+                        <p><span>Dirección</span>Av. del Libertador 2400, Olivos</p>
+                        <p><span>Teléfono</span><a href="tel:+541147900000">+54 11 4790-0000</a></p>
+                        <p><span>Correo</span><a href="mailto:hola@supercarsolivos.com.ar">hola@supercarsolivos.com.ar</a></p>
+                        <p><span>Horarios</span>Lunes a viernes, 10 a 19 h<br>Sábados, 10 a 14 h</p>
+                    </address>
+                </div>
+
+                <form class="contact-form" id="contact-form" novalidate>
+                    <h3>Contanos qué estás buscando.</h3>
+
+                    <div class="form-row">
+                        <div class="field">
+                            <label for="name">Nombre y apellido</label>
+                            <input id="name" name="name" type="text" autocomplete="name" required>
+                            <span class="error" id="name-error"></span>
+                        </div>
+
+                        <div class="field">
+                            <label for="email">Correo electrónico</label>
+                            <input id="email" name="email" type="email" autocomplete="email" required>
+                            <span class="error" id="email-error"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="field">
+                            <label for="category">Categoría</label>
+                            <select id="category" name="category">
+                                <option value="">Elegí una categoría</option>
+                                <option value="premiums">Premiums &amp; superdeportivos</option>
+                                <option value="nobles">Nobles &amp; deportivos</option>
+                            </select>
+                            <span class="error"></span>
+                        </div>
+
+                        <div class="field">
+                            <label for="model">Modelo de interés</label>
+                            <select id="model" name="model" disabled>
+                                <option value="">Elegí primero una categoría</option>
+                            </select>
+                            <span class="error"></span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="phone">Teléfono (opcional)</label>
+                        <input id="phone" name="phone" type="tel" autocomplete="tel">
+                        <span class="error"></span>
+                    </div>
+
+                    <div class="field">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <span class="error" id="message-error"></span>
+                    </div>
+
+                    <button class="btn btn-primary" type="submit">Enviar consulta</button>
+                    <p class="form-status" id="form-status" role="status"></p>
+                    <p class="form-note">Respondemos dentro de las 24 horas hábiles.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© <span data-year></span> Supercars Olivos</p>
+            <nav class="footer-nav" aria-label="Enlaces del pie">
+                <a href="#premiums">Premiums</a>
+                <a href="#nobles">Nobles</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="Volver arriba">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 14l6-6 6 6"></path>
+        </svg>
+    </button>
+
+    <script src="index.js"></script>
+</body>
+</html>
