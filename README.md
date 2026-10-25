@@ -2,7 +2,13 @@
 
 Landing page para una concesionaria de autos de alta gama en Olivos, Buenos Aires. El sitio presenta dos catálogos diferenciados, información del showroom y un formulario de contacto con validación.
 
-Proyecto académico de Programación III — UTN.
+## Información académica
+
+- **Materia:** Programación III
+- **Institución:** Universidad Tecnológica Nacional — Facultad Regional Avellaneda
+- **Carrera:** Tecnicatura Universitaria en Programación
+- **Trabajo:** Primer parcial
+- **Autor:** Juan Cruz Reynoso
 
 ## Secciones
 
