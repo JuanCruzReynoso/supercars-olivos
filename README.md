@@ -7,6 +7,7 @@ Landing page para una concesionaria de autos de alta gama en Olivos, Buenos Aire
 - **Materia:** Programación III
 - **Institución:** Universidad Tecnológica Nacional — Facultad Regional Avellaneda
 - **Carrera:** Tecnicatura Universitaria en Programación
+- **Comisión:** 334
 - **Trabajo:** Primer parcial
 - **Autor:** Juan Cruz Reynoso
 

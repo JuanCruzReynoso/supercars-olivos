@@ -55,6 +55,19 @@ textarea {
 
 .logo {
     justify-self: start;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.logo-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.logo-text {
+    display: block;
 }
 
 .logo-main {
